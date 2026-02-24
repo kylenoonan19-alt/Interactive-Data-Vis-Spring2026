@@ -1,0 +1,39 @@
+# Observable Framework Data App
+
+This project is an interactive data dashboard built with Observable Framework.
+Pages are Markdown files with embedded reactive JavaScript, SQL, and Observable Plot charts.
+
+## Key Technologies
+
+- **Observable Framework** — static site generator for data apps; pages are `.md` files with fenced JS/SQL blocks
+- **Observable Plot** — declarative visualization library for charts and graphics
+- **Observable Inputs** — built-in UI controls (select, range, checkbox, etc.)
+- **D3** — utility library (formats, scales, data transforms) and custom SVG charts
+
+## AI Reference Docs
+
+The following files contain syntax references and conventions for AI agents working in this repo.
+Read these before generating any Observable Framework pages, Observable Plot visualizations, or D3 code.
+
+- [.ai/observable-framework.md](.ai/observable-framework.md)
+  Complete reference for Framework markdown syntax, reactivity model, data loaders,
+  FileAttachment, view(), Inputs, SQL blocks, and project structure.
+
+- [.ai/observable-plot.md](.ai/observable-plot.md)
+  Complete reference for Observable Plot: Plot.plot(), all mark types, transforms,
+  scales, color schemes, and composition patterns.
+
+- [.ai/d3.md](.ai/d3.md)
+  Complete reference for D3: data utilities (group, rollup, bin, extent, format),
+  scales (scaleLinear, scaleTime, scaleBand), selections, data joins, axes, transitions,
+  and geo projections. Includes guidance on when to use D3 vs. Observable Plot.
+
+## Important Conventions
+
+- Standard charts use Observable Plot — NOT D3 selections, Recharts, Chart.js, or Vega
+- D3 is used for: number/date formatting, data aggregation, custom SVG, geo projections
+- D3 is globally available in .md pages — do NOT import it
+- Data loading uses FileAttachment() or SQL fenced code blocks, NOT fetch()
+- Reactive state uses view() + Inputs, NOT React/Vue/Svelte state
+- Pages are .md files in src/, NOT .html or .jsx files
+- Do NOT use npm-style imports for Plot or D3 inside .md pages — both are globally available

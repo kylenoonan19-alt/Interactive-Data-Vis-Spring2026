@@ -20,8 +20,8 @@ The assignment requirements are as follows:
    2. HTML: A table, a list, and an image
    3. JS: include at least one [`Input` element](https://observablehq.com/framework/inputs/) that changes a visible reference on the dashboard
 4. Submit your lab via email directly to me (ellie.frymire@gmail.com). Include:
-  1. your github repository folder link for this lab, which will look something like `https://github.com/[USERNAME]/Interactive-Data-Vis-Spring2026/tree/main/src/[LAB FOLDER]`.
-  2. your [deployed link](#4-set-up-your-github-pages-for-your-deployment), which will look something like `https://[USERNAME].github.io/Interactive-Data-Vis-Spring2026/[LAB FOLDER]/`.
+    1. your github repository folder link for this lab, which will look something like `https://github.com/[USERNAME]/Interactive-Data-Vis-Spring2026/tree/main/src/[LAB FOLDER]`.
+    2. your [deployed link](#4-set-up-your-github-pages-for-your-deployment), which will look something like `https://[USERNAME].github.io/Interactive-Data-Vis-Spring2026/[LAB FOLDER]/`.
 
 ---
 
