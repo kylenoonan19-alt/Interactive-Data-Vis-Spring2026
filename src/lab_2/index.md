@@ -46,7 +46,7 @@ const currentStaffing = {
 
 <br>
 
-## 1. How did local events impact ridership in summer 2025? What effect did the July 15th fare increase have?##
+## 1. How did local events impact ridership in summer 2025? What effect did the July 15th fare increase have? ##
 
 ```js
 const eventsByDate = new Set(local_events.map((d) => +d.date))
