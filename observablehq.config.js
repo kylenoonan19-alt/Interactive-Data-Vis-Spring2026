@@ -58,9 +58,17 @@ export default {
         // { name: "Instructions", path: "/lab_4/readme" },
         // { name: "Dashboard", path: "/lab_4/index" },
       ],
+    },
+    {
+      name: "Scratchpad",
+      open: false,
+      pages: [
+        { name: "Scratchpad", path: "/scratchpad/index" },
+      ],
     }
 
   ],
+
 
   // Content to add to the head of the page, e.g. for a favicon:
   head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',
