@@ -60,14 +60,6 @@ export default {
         // { name: "Dashboard", path: "/lab_4/index" },
       ],
     },
-    {
-      name: "Scratchpad",
-      open: false,
-      pages: [
-        { name: "Scratchpad", path: "/scratchpad/index" },
-      ],
-    }
-
   ],
 
 

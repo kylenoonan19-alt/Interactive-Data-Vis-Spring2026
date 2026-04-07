@@ -121,7 +121,7 @@ display(
 )
 ```
 
-<p> The bar graph above represents the average subway ridership on days where an event took place in New York City and non-event days in summer 2025. By aggregating the data from the "ridership" and local_events" datasets, we can understand how local events impacted ridership in NYC. The results show that the average citywide ridership was <b>614,962</b> on event days vs <b>593,477</b> on non-event days (+3.6%). Overall, ridership on event days was, on average, 3.6% higher than ridership on non-event days.</p>
+<p> The bar graph above represents the average subway ridership on days where an event took place in New York City and non-event days in summer 2025. By aggregating the data from the "ridership" and "local_events" datasets, we can understand how local events impacted ridership in NYC. The results show that the average citywide ridership was <b>614,962</b> on event days vs <b>593,477</b> on non-event days (+3.6%). Overall, ridership on event days was, on average, 3.6% higher than ridership on non-event days.</p>
 
 
 ```js
